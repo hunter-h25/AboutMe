@@ -7,13 +7,13 @@ again = ""
 
 while again != "n":
   print()
-  DiceAmt = int(input("How many dice are you wanting to roll? "))
+  diceAmt = int(input("How many dice are you wanting to roll? "))
   print()
-  DiceSide = int(input("How many sides are on each dice? "))
+  diceSide = int(input("How many sides are on each dice? "))
   total = 0
   print()
-  for i in range(1,DiceAmt+1):
-    DiceNum = random.randint(1,DiceSide)
+  for i in range(1,diceAmt+1):
+    diceNum = random.randint(1,diceSide)
     total = total+DiceNum
     
   print("Dice Total:",total)
