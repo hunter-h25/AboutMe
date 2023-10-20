@@ -10,8 +10,7 @@ gList = []
 index = 0
 
 #List of words that can be used as an answer and how the computer choses it
-list = ["penelope"]
-#["winner","loser","penelope","shark","winter","obscure","lopside","jackfrost","places"]
+list = ["winner","loser","penelope","shark","winter","obscure","lopside","jackfrost","places"]
 word = random.choice(list)
 
 #Determines the length of the word and displays it to the player
