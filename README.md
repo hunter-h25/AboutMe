@@ -1,4 +1,11 @@
 # AboutMe
+- I graduate in 2025 :mortar_board:
+- I plan to go to college for computer science or software engineering :computer:
+##### Hobbies
+- Dirt bike riding 🏍️
+- Skiing 🎿
+- Coding/Programming 🖥️
+- Gaming 🎮
 ## HTML-CSS
 
 ### AboutMeInHTML
