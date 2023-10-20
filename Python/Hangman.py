@@ -10,7 +10,8 @@ gList = []
 index = 0
 
 #List of words that can be used as an answer and how the computer choses it
-list = ["winner","loser","penelope","shark","winter","obscure","lopside","jackfrost","places"]
+list = ["penelope"]
+#["winner","loser","penelope","shark","winter","obscure","lopside","jackfrost","places"]
 word = random.choice(list)
 
 #Determines the length of the word and displays it to the player
@@ -40,7 +41,11 @@ while True:
     for i in range(1,ocr+1):
 
       #This is how the computer finds where the guess is in the word
-      index = word.find(guess,index+1)
+      if i == 1:
+        index = word.find(guess,index)
+      else:
+        index = word.find(guess,index+1)
+
       print()
       print("The letter,",guess,"is present in the word at letter number: ", index+1)  
       print()
