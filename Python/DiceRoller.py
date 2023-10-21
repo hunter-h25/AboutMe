@@ -14,7 +14,7 @@ while again != "n":
   print()
   for i in range(1,diceAmt+1):
     diceNum = random.randint(1,diceSide)
-    total = total+DiceNum
+    total = total+diceNum
     
   print("Dice Total:",total)
   print()
