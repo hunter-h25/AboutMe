@@ -30,3 +30,4 @@ I wanted to challenge myself while I have been learning python, so I created wha
 - Lives tracker
 - Repeating guess detection
 - Simpler way of checking if the player's guess is in the word
+- Set the user to see one screen at a time
