@@ -1,4 +1,18 @@
 import random
+import os
+import time
+
+#clears the screen and reprints the title and word to keep it clean. This allows the user to only see one title and underscore value at a time.
+def clearScreen(a,b,c):
+  os.system("cls")
+  print("Hangman")
+  print("--------")
+  print()
+  print(len(a), "Letters")
+  print()
+
+  print(b,"                   Lives:",c)
+  print()
 
 print("Hangman")
 print("--------")
@@ -15,20 +29,18 @@ word = random.choice(list)
 
 #Determines the length of the word and displays it to the player
 char = len(word)
-print(len(word), "Letters")
-print()
 underscores = "_" * char
 
 #In-game loop until the player either wins or loses
 while True:
+  clearScreen(word,underscores,loseCounter)
   index = 0
-  print(underscores,"                   Lives:",loseCounter)
-  print()
   guess = input("Letter (lowercase): ")
 
   #Checks if the user had already guessed that letter and adds it to a list of other guesses   
   if guess in gList:
      print("You Have Already Guessed That!")
+     time.sleep(2)
      continue
   gList.append(guess)
 
@@ -70,6 +82,7 @@ while True:
     winCounter += 1
 
     if winCounter == char:
+      clearScreen(word,word,loseCounter)
       print("You Got It!")
       break
   
@@ -78,9 +91,8 @@ while True:
     print('That is not in the word')
     print()
     loseCounter -=1
+    time.sleep(2)
     if loseCounter == 0:
-      print()
-      print("You Lost!")
-      print("The word was:",word)
-      break
-print(word)
+     clearScreen(word,word,loseCounter)
+     print("You Lost!")
+     break
