@@ -31,3 +31,11 @@ I wanted to challenge myself while I have been learning python, so I created wha
 - Repeating guess detection
 - Simpler way of checking if the player's guess is in the word
 - Set the user to see one screen at a time
+
+### ParagraphAnalyzer
+This is a program that will take a user inputed paragraph or text and display the following features:
+- Word count
+- Word frequency
+- Charcter count
+- Character count excluding spaces
+- Sentence Count
