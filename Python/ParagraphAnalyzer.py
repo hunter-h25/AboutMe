@@ -12,7 +12,7 @@ def wordFrequency(text):
     wordList = newText.split()
 
 
-    #Checks if word has ocurred before. If it has it will skip it and if it hasn't then it will add it to the final display
+    #Checks if word has ocurred before. If it has it will skip it and add an occurence, if it hasn't then it will add it to the final display
     while True:
         for i in range(0,len(wordList)):
             if not wordList[i] in ocrList:
