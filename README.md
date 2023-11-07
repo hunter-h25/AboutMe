@@ -1,6 +1,6 @@
 # AboutMe
 - I graduate in 2025 :mortar_board:
-- I plan to go to college for computer science or software engineering :computer:
+- I plan to go to college for computer science/software engineering :computer:
 ##### Hobbies
 - Dirt bike riding 🏍️
 - Skiing 🎿
