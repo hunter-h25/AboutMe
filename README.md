@@ -10,3 +10,4 @@
 - Coding/Programming 🖥️
 - Gaming 🎮
 
+### There are MarkDown files in each folder detailing the projects inside them
