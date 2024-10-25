@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4287f5;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+main {
+    padding: 20px;
+}
+
+#logos {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#logos li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#sictc-logo {
+    margin: 1.25em;
+    width: 20%;
+    height: 10%;
+}
+
+#reitz-logo {
+    margin: .25em;
+    width: 20%;
+    height: 10%;
+}
+
+#about-section,
+#future-section,
+#projects-section {
+    text-align: center;
+    font-size: x-large;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+}
+
+#project-sub {
+    background-color: #4287f5;  
+    border-radius: 1em;
+    padding: .5em;
+    color: #fff;
+}
+
+#project-sub ul {
+    list-style-type: none;
+}
+
+#project-sub ul li a {
+    text-decoration: none;
+    font-size: x-large;
+}
+
+#contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4287f5;
+    color: #fff;
+    border: #fff;
+    border-style: solid;
+    border-width: .1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3369d8;
+}
+
+@media only screen and (min-width: 768px) {
+    nav ul li {
+        display: inline;
+        margin-right: 30px;
+    }
+    
+    main {
+        padding: 40px;
+    }
+
+}
+
+html, body {
+    height: 100%;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

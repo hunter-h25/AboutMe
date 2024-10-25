@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunter Hargett</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--Sreedhar_K on Stack Overflow https://stackoverflow.com/questions/63108419/python-how-to-embed-my-python-script-into-a-webpage-->
+    <!--<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />-->
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><button type="button" class="btn btn-light"><a href="index.html">Home</a></button></li>
+                <li><button type="button" class="btn btn-light"><a href="projects.html">Projects</a></button></li>
+                <li><button type="button" class="btn btn-light"><a href="future.html">Future Plans</a></button></li>
+                <li><button type="button" class="btn btn-light"><a href="contact.html">Contact</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    <py-script>
+        #https://www.reddit.com/r/PyScript/comments/xcg27f/how_to_simulate_a_console_in_pyscript/?rdt=35306
+        from js import prompt
+        import random
+        import asyncio
+
+        print("Dice Roller!")
+        print("-------------")
+        
+        again = ""
+        
+        while again != "n":
+          print()
+          diceAmt = int(prompt("How many dice are you wanting to roll? "))
+          print()
+          diceSide = int(prompt("How many sides are on each dice? "))
+          total = 0
+          print()
+          for i in range(1,diceAmt+1):
+            diceNum = random.randint(1,diceSide)
+            total = total+diceNum
+            
+          print("Dice Total:",total)
+          print()
+        
+          again = prompt("Do you want to roll again?(y/n) ")
+          await asyncio.sleep(.01)
+    </py-script>
+</body>

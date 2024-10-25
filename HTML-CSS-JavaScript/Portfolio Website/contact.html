@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><button type="button" class="btn btn-light"><a href="index.html">Home</a></button></li>
+                <li><button type="button" class="btn btn-light"><a href="projects.html">Projects</a></button></li>
+                <li><button type="button" class="btn btn-light"><a href="future.html">Future Plans</a></button></li>
+                <li><button type="button" class="btn btn-light"><a href="contact.html">Contact</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="contact-form">
+            <h2>Contact Information</h2>
+            <p>You can contact me at:</p>
+            <p>Email: hunterhargett519@outlook.com</p>
+            <p>Number: 812-549-6445</p>
+            <img src="assets/soccerPic.jpg" alt="Picture Of Me" style="border-radius: 5em;">
+            <h2>Contact Me</h2>
+            <form id="form" onsubmit="handleSubmit(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" required></textarea>
+                <button type="submit"><strong>Submit</strong></button>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
