@@ -1,8 +1,8 @@
 # AboutMe
-- I graduate in 2025 :mortar_board:
-- I plan to go to college for computer science/software engineering :computer:
+- I graduate in 2029 from Indiana University :mortar_board:
+- I am pursuing a B.S. in computer science :computer:
 - I go to FJ Reitz High School
-- Partner with Southern Indiana Career & Technical Center for computer science
+- Partnered with Southern Indiana Career & Technical Center for computer science
   
 ##### Hobbies
 - Dirt bike riding 🏍️
@@ -10,4 +10,4 @@
 - Coding/Programming 🖥️
 - Gaming 🎮
 
-### There are MarkDown files in each folder detailing the projects inside them
+### There are Markdown files in each folder detailing the projects inside them
