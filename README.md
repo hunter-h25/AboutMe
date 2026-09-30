@@ -17,8 +17,7 @@
 ### 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hunter-h25&show_icons=true&theme=radial&hide_border=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hunter-h25&layout=compact&theme=radial&hide_border=true" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hunter-h25&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="80%" />
 </p>
 
 ---
