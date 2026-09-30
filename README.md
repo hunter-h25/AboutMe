@@ -39,4 +39,4 @@ When I'm off the terminal, you'll usually find me:
 
 ---
 
-📬 **Connect with me:** [LinkedIn](www.linkedin.com/in/hunter-hargett-ba193b328) | [Email](mailto:hunterhargett519@outlook.com)
+📬 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/hunter-hargett-ba193b328) | [Email](mailto:hunterhargett519@outlook.com)
